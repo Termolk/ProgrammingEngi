@@ -1,3 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using ProgrammingEngi.FirstPractice;
 
-Console.WriteLine("Hello, World!");
+var students = new StudentList()
+{
+  new Student(){Name = "test1", Year = 1},  
+  new Student(){Name = "test1", Year = 1},  
+  new Student(){Name = "test1", Year = 1},  
+  new Student(){Name = "test1", Year = 1},  
+  new Student(){Name = "test1", Year = 1}  
+};
+
+var yeasr = students.GetYearsCount();
+foreach (var year in yeasr)
+{
+  Console.WriteLine($"{year.Key} курс - {year.Value} студентов");
+}
