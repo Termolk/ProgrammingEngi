@@ -37,4 +37,5 @@ Console.WriteLine($"Кол-во записей: {contackBook.GetCountOfContacts(
    Данные контакта: Name: Ser, birth: 01.01.0001 00:00:00, Email: fdsfsdf@gmail.com
    Данные контакта: Name: Vlad, birth: 01.01.0001 00:00:00, Email: fdsfdsfsdfsdfsdf@yaho.com
    
+   Кол-во записей: 4
  */
