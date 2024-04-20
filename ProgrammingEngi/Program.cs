@@ -29,3 +29,12 @@ foreach (var contact in contackBook.GetAllContacts)
 
 Console.WriteLine();
 Console.WriteLine($"Кол-во записей: {contackBook.GetCountOfContacts()}");
+
+/*
+ * Output:
+ * Данные контакта: Name: Ser, birth: 01.01.0001 00:00:00, Phone: 88005553535
+   Данные контакта: Name: Vlad, birth: 01.01.0001 00:00:00, Phone: 88005553535
+   Данные контакта: Name: Ser, birth: 01.01.0001 00:00:00, Email: fdsfsdf@gmail.com
+   Данные контакта: Name: Vlad, birth: 01.01.0001 00:00:00, Email: fdsfdsfsdfsdfsdf@yaho.com
+   
+ */
