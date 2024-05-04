@@ -7,8 +7,8 @@ public class ContactBook
 
     public ContactBook(List<BaseContact> phoneContacts, List<BaseContact> emailContacts)
     {
-        PhoneContacts = phoneContacts;
-        EmailContacts = emailContacts;
+        PhoneContacts = phoneContacts ?? new List<BaseContact>();
+        EmailContacts = emailContacts ?? new List<BaseContact>();
     }
     
 
